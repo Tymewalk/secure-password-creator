@@ -1,0 +1,24 @@
+<html><head>
+      <title>Password Generator v0.1 | DrKat123's Website</title>
+      <style>
+      body{
+        font-family: sans-serif;
+      }
+      </style>
+      <script>
+      var listOfWords = ["commandline", "escaragots", "dismissal", "quarry", "recursion", "github", "certification", "debrief", "legacy", "superb"]
+      </script>
+    </head>
+    <body>
+      <h1>Password Generator v0.1 (beta)</h1>
+      <button type="button" onclick="getElementById('password').innerHTML = listOfWords[Math.floor((Math.random() * 10) + 0)] + listOfWords[Math.floor((Math.random() * 10) + 1)] + listOfWords[Math.floor((Math.random() * 10) + 1)]+ listOfWords[Math.floor((Math.random() * 10) + 1)];">Click me to generate your password!</button>
+      <p id="password"></p>
+      <h1>How does this works?</h1>
+      <p>I got this inspiration from the xkcd comic "Password Strength."<br>
+      Here's the comic strip:<br></p>
+      <img src="http://data.drkat.gwiddle.co.uk/images/xkcd/password_strength.png" alt="password strength">
+      <p>Using this principals, i created a random password generator, but this is still beta.</p>
+      <a href="http://drkat.gwiddle.co.uk">Back to home</a>
+    
+
+</body></html>
